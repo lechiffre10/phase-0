@@ -34,3 +34,10 @@ rm removes a file in the directory
 
 help accesses help in the command linea and provides information about commands
 #1.4 Forking and Cloning
+Didn't have much trouble setting up a Github account and going through the clear instructions for this challenge. As for creating a new repository I would explain this to a new person in the following way:
+In order to create a repository( a directory where you can store all your code and works) You first click at the top right on the + sign next to your profile and then select new repository. You would then choose a repository name and choose whether you want it to be private or public ( difference being who can see your repository ).
+
+Once established you have successfully set up your repository. 
+Now if you want to copy ( or fork) someone's repository unto your own profile you simply go to the chosen repository's main page and on the top right you would click on FORK and Github will fork it to your profile. This allows you to copy the repository and work on the copy( work on the code or make any changes) that is forked to your profile as opposed to touching the original so if you want to make any changes you can do so on the copy. 
+
+In order to clone the repository to the computer we simply copy to clipboard the HTTPS clone link found on the middle right of the page and then open up the command line. After opening the command line we simply select the directory we want the clone to be established and type in git clone followed by the link ( eg: https://github.com/lechiffre10/p0-cli-exploration.git (Links to an external site.) for the P0 cli exploration repository ) and that's 
