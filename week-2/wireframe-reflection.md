@@ -1,5 +1,5 @@
-![Wireframe Index](wireframe-index.png)
-![Wireframe Blog](wireframe-blog-index.png)
+![Wireframe Index](imgs/wireframe-index.png)
+![Wireframe Blog](imgs/wireframe-blog-index.png)
 
 ##What is a wireframe?
 A wireframe is a visual representation of the skeleton of a website. It consists of visual elements to ease set the foundation for the website. Just like architects work with blueprints before building a home, a wireframe is a blueprint before building the website and displays the layout and the elements and their arrangement on the respective website.
