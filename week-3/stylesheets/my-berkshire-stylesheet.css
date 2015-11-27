@@ -1,0 +1,98 @@
+
+/* Main body of Berkshire website */
+body {
+    
+color:#000080;
+    background-color:#ffffff;
+}
+
+.table {
+	    padding: 0 15px 15px 15px;
+    margin:auto;
+	
+	}
+a {
+    color:#800080;
+}
+a:visited {
+    color:#ff0000;
+}
+/* Berkshire Hathaway heading */
+h1 {    
+    text-align:center;
+    font-weight:bold;
+    font-size:100%;
+}
+/* Class for each description under links */
+.span    {
+    font-size:75%;
+        display: block;
+        margin-top: 5px;
+}
+/* ID for Official Home page heading */
+#official    {
+    font-size:90%;
+    display:block;
+}
+/* B and H for Berkshire Hathaway different font */
+.BH    {
+    font-size:175%;
+}
+/* footer for geico info */
+.geico    {
+    text-align:center;
+    display:block;
+    font-size: x-small;
+}
+/* Geico Img */
+#img	{
+	margin:auto;
+	display:block;
+}
+/* replaces <hr> tag */
+.hrline	{
+	display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+    border-style: inset;
+
+}
+/*ID for footer info about web page */
+#p	{
+	font-size: small;
+}
+/* ID for disclaimer */
+#disclaimer	{
+	font-size: x-small;
+	
+}
+/* Berkshire Hathaway in footer */
+#bold {
+	font-size: x-small;
+	font-weight: bold;
+	
+/*
+What is important to know when linking an external file (like a stylesheet) to an HTML file?
+-Certain properties need to be established when linking an external file to an HTML. To begin, under the head tag, we must open a link tag with relationship, type and the path to the .css file.
+It's also important to have a proper path in place( either relative or absolute) to link the stylesheet properly.
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+I initially had trouble understanding the differences in positioning but the HTML/CSS book recommended by the course really helped in that regards( still going through it).
+Once you understand the difference between absolute, relative and fixed positioning I think it's generally easy to play around with the elements. It wasn't as hard as I thought it would be, my biggest gripe was the two columns 
+that are visible on the Berkshire Hathaway. I ended up having to do a table to set it up properly because my regular <ul> and <li> wouldn't allow me to properly play around and get the same look.
+What CSS did you use to modify the element style (like size, color, etc.)
+A few. Font-weight to get a bold look, font size, color ( foreground and background) and some pseudo selectors for visited links. Nothing fancy, pretty straightforward
+similar to the Berkshire website.
+Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+Absolutely. Both ID's and Classes were used. ID's are unique to each element and can only be used once whereas the class can be used on several elements and can also be used with other classes ( or ID's as well).
+It's also important to note that ID's also serve a brower functionality (scrolling straight to content or element). In this specific case, ID's were used only once on one element and classes on several elements on the HTML document.
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+While I'm new at this and don't want to flaunt the code base, I think I followed best practice more than the website. To elaborate, my understanding is that Berkshire uses an internal stylesheet to position and style their website,
+whereas best practice is to use an external one. Using an external one allows proper allocation of ID's and classes and a better structure ( by seperating HTML and CSS). While my website doesn't look entirely like the Berkshire one, I believe
+the practices followed and the code base was cleaner on my end. I leave that to my peers to look at that and am glad to work on improving my code as I go along!
+*/
+
+
+	
