@@ -1,4 +1,5 @@
 ```Ruby
+
 puts "What is your first name?"
 first_name = gets.chomp
 puts "What is your middle name?"
@@ -11,6 +12,7 @@ puts "What is your favorite number?"
 answer= gets.chomp.to_i
 answer+=1
 puts "#{answer} is a bigger and better result though!"
+
 ```
 =begin
 How do you define a local variable?
