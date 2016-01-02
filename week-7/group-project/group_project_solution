@@ -1,0 +1,10 @@
+#Tests to user stories
+#As a user, I want to be able to get the sum of elements
+#As a user, I want to be able to get the sum of all the elements in an odd length data collection
+#As a user, I want to be able to get the sum of all the elements in an even length data collection
+#As a user, I want to be able to get the mean of elements
+#As a user, I want to be able to get the average of all the elements in an odd length data collection
+#As a user, I want to be able to get the average of all the elements in an even length data collection
+#As a user, I want to be able to get the median value of elements
+#As a user, I want to be able to get the median value of all the elements in an odd length data collection
+#As a user, I want to be able to get the median value of all the elements in an even length data collection
