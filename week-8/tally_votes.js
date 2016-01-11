@@ -172,8 +172,16 @@ winner();
 // __________________________________________
 // Reflection
 //What did you learn about iterating over nested objects in JavaScript?
+//I Found it very similar to iterating in Ruby except for the syntax. But in this case when you have layers(nested)
+// you end up using a foor loop and then another one ( etc... depending on your nested object) which was very similar to the
+// each method when we wanted to iterate in Ruby.
 //Were you able to find useful methods to help you with this?
+// The hasOwnProperty was useful in the IF statement to add an accumulator for the tally count.
 //What concepts were solidified in the process of working through this challenge?
+//A lot of research was required for my pair and I to get through this challenge ( A LOT) and I found this to be one of the 
+// hardest challenges so far simply because of the lack of JavaScript experience and practice ( the syntax etc..) so i'm really
+// not quite sure how to answer this question. I feel more confident accessing, iterating through object properties but it really requires
+// me to do a lot of research ( stack overflow) to really grasp the concepts. I most likely will go through the codeacademy material to understand this further.
 
 
 
