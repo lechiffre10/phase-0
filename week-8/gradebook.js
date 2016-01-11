@@ -113,8 +113,14 @@ console.log(average ([1,2,3,4]))
 // Reflect
 /*
 What did you learn about adding functions to objects?
+In this specific case we used the dot notation to create a property and then its value as a function.
+This was similar to simply creating a new property but we add a function as a value here.
 How did you iterate over nested arrays in JavaScript?
+Using a for loop and then we use ( var i in object) in order to iterate!
 Were there any new methods you were able to incorporate? If so, what were they and how did they work?
+The reduce method that is built-in for JavaScript in the documentation. It allowed me to sum the elements in the array
+as opposed to coming up with a more complicated means of doing so the reduce method allows you to add a function to add( in my
+case a+b)
 */
 
 
